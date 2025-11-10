@@ -1,0 +1,7 @@
+baseURL = 'https://blog.fp.ac.cn/'
+languageCode = 'zh-cn'
+title = '茶杯的冲浪日志'
+theme = 'ananke'
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
