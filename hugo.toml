@@ -1,7 +1,12 @@
 baseURL = 'https://blog.fp.ac.cn/'
 languageCode = 'zh-cn'
 title = '茶杯的冲浪日志'
-theme = 'ananke'
+theme = 'stack'
+[params]
+  # The theme's default mainSections is ["post"].
+  # Your content is under content/posts, so list the section name here so
+  # the theme will include those pages on the homepage.
+  mainSections = ["posts"]
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
